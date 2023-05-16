@@ -7,11 +7,23 @@ html {
 
 #logo {
     width: 7rem;
-    height: 4rem;
+    height: 3rem;
+}
+
+.navbar-brand {
+color: blue;
+font-family: 'Times New Roman', Times, serif;
+width: 10rem;
+height: 5rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-right: 15rem;
 }
 
 .nav-link {
     color:blue;
+    margin-right: 2.5rem;
 }
 
 /* #active {
@@ -19,11 +31,13 @@ html {
 } */
 
 #header-image-box{
- background: linear-gradient(rgba(42, 58, 203, 0.7), rgba(56, 77, 72, 0.7)), url(../assets/bible-g1b777b4b1_1280.jpg);
+ background: linear-gradient(rgba(70, 27, 18, 0.7), rgba(56, 77, 72, 0.7)), url(../assets/bible-g1b777b4b1_1280.jpg);
  background-size: cover;
  min-height: 80%;
  padding-top:rem;
 }
+
+
 
 #button-box .row {
     display: flex;
@@ -35,4 +49,27 @@ html {
     padding-top: 15rem;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 4rem
+}
+
+.about{
+    max-height: 90%;
+    margin-bottom: 2.5rem;
+}
+
+.about-text {
+    padding-top: 2.5rem;
+    text-shadow: 3px 3px 2px black;
+}
+
+.about-image-box img {
+    max-height: 60%;
+    border-radius: 40%;
+    margin-left: 8rem;
+    margin-top: 2.5rem;
+}
+
+.topic-text {
+    color: blue;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 2rem;
 }
